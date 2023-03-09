@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(315deg, #c2118d 0%, #ff503c 74%);
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 800px;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
+  border-radius: 25px;
+}
+.wrapper .title {
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper .main-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper .main-info--input input {
+  padding: 5px 10px;
+  font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.wrapper .main-info--input button {
+  margin-left: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.wrapper .main-info--input button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.wrapper .main-info--photo {
+  width: 140px;
+  height: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wrapper .headings {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.wrapper .headings p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
